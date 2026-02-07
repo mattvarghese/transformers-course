@@ -25,6 +25,8 @@ $ which python
 $ pip install --upgrade pip
 $ pip config set global.extra-index-url https://download.pytorch.org/whl/cpu
 $ pip install transformers torch
+# pillow is required by image classification tasks
+$ pip install pillow
 ```
 
 ### Optionally symlink model_store
