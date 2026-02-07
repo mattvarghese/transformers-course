@@ -27,7 +27,9 @@ $ pip install transformers torch
 ```
 
 ### Optionally symlink model_store
-ln -s /path/model_store ./model_store
+```bash
+$ ln -s /path/to/model_store ./model_store
+```
 
 ### Start JupyterLab
 ```bash
