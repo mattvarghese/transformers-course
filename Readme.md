@@ -12,7 +12,8 @@ https://huggingface.co/learn/llm-course/chapter0/1
 $ mkdir transformers-course
 $ cd transformers-course
 
-$ sudo apt install python3-venv
+# ffmpeg is required for speech recognition
+$ sudo apt install python3-venv ffmpeg
 $ python3 -m venv .env
 $ source .env/bin/activate
 
