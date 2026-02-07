@@ -23,8 +23,11 @@ $ which python
 ```bash
 $ pip install --upgrade pip
 $ pip config set global.extra-index-url https://download.pytorch.org/whl/cpu
-$ pip install "transformers[sentencepiece]" torch
+$ pip install transformers torch
 ```
+
+### Optionally symlink model_store
+ln -s /path/model_store ./model_store
 
 ### Start JupyterLab
 ```bash
