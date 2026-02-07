@@ -40,3 +40,9 @@ $ jupyter lab
 ```bash
 $ deactivate
 ```
+
+## Attribution
+
+Portions of this project are based on the
+[Hugging Face Course](https://huggingface.co/course) (© 2022 Hugging Face),
+licensed under the Apache License 2.0.
